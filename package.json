@@ -1,0 +1,26 @@
+{
+  "name": "bitcoinpwa",
+  "version": "1.0.0",
+  "description": "Calculadora para cryptomoedas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 8080 -a localhost -c 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/victorgare/bitcoinpwa.git"
+  },
+  "keywords": [
+    "PWA"
+  ],
+  "author": "Victor Garé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorgare/bitcoinpwa/issues"
+  },
+  "homepage": "https://github.com/victorgare/bitcoinpwa#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
